@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67583ff58a4a7d41985c73aba5ab568, type: 3}
+  m_Name: State04
+  m_EditorClassIdentifier: 
+  storyText: "\"Waiter, please bring two beer and few peanuts, please.\"\r\nYou both
+    chat for some time. Then you look at your watch and she asks if you're late for
+    anything.\r\n\r\nWhat will you say?\r\n1. \"My roommate will be home soon, and
+    I have the key. See you later. Bye.\"\r\n2. \"I was going to watch the latest
+    movie. Would you like to accompany me?\"\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 0738f79dde30a7143863428e760dee4b, type: 2}
+  - {fileID: 11400000, guid: 5bd5621c2da5f8843aafb5efce9ede8d, type: 2}

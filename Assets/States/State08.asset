@@ -9,11 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c67583ff58a4a7d41985c73aba5ab568, type: 3}
-  m_Name: WaitForWaiter
+  m_Name: State08
   m_EditorClassIdentifier: 
-  storyText: 'Hey waiter.
-
-    Can you please bring me a can of beer?'
-  nextStates:
-  - {fileID: 11400000, guid: 728d8c631cc438f44a65c568d81da0ee, type: 2}
-  - {fileID: 11400000, guid: c8e53f92fec38854cb817d6c91b39cbb, type: 2}
+  storyText: "You enter into your apartment. And head to your bed.\r\nTurn off the
+    light.\r\n"
+  nextStates: []

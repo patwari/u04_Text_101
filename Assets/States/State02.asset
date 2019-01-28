@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67583ff58a4a7d41985c73aba5ab568, type: 3}
+  m_Name: State02
+  m_EditorClassIdentifier: 
+  storyText: "You signal the waitor. He arrives.\r\n\"What would you like to order,
+    sir?\"\r\n\"Just a beer. And will you please fetch today's newspaper?\"\r\n\r\nMeanwhile
+    you look around. It's quite a small cafe. You look across and notice the girl
+    has put down the book and was looking outside the window.\n\r\nWhat would you
+    do?\r\n1. Read the newspaper?\r\n2. Talk to the girl\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 0428fc96fe91989408db343680027ffe, type: 2}
+  - {fileID: 11400000, guid: 869cebc4a6573ef48ab74f24c8b072ad, type: 2}
