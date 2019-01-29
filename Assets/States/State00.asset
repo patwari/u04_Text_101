@@ -13,7 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: "You enter into a cafe.\r\nLittle light, wooden tables. Not too crowdy.\r\nYou
     notice a pretty girl sipping tea and reading a book.\r\n\r\nWhat would you do?\r\n1.
-    Seat across her. Smile and say hi. \r\n2. Take another seat. Wait for the waiter\r\n"
+    Seat across her. Smile and say hi. \r\n2. Take another seat. Wait for the waiter\r\n\nPress
+    'Q' key to quit anytime.\nPress space bar key to restart the game anytime. \n"
   nextStates:
   - {fileID: 11400000, guid: 0428fc96fe91989408db343680027ffe, type: 2}
   - {fileID: 11400000, guid: c8e53f92fec38854cb817d6c91b39cbb, type: 2}
