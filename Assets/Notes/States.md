@@ -1,5 +1,8 @@
 # Game flow
 
+## Build
+> https://www.sharemygame.com/share/10e60a18-2119-4bb0-9e54-45d4d0324a5a
+
 ## State00 - Initial
 You enter into a cafe.
 Little light, wooden tables. Not too crowdy.
