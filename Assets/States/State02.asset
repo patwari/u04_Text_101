@@ -17,5 +17,5 @@ MonoBehaviour:
     has put down the book and was looking outside the window.\n\r\nWhat would you
     do?\r\n1. Read the newspaper?\r\n2. Talk to the girl\r\n"
   nextStates:
-  - {fileID: 11400000, guid: 0428fc96fe91989408db343680027ffe, type: 2}
   - {fileID: 11400000, guid: 869cebc4a6573ef48ab74f24c8b072ad, type: 2}
+  - {fileID: 11400000, guid: 0428fc96fe91989408db343680027ffe, type: 2}

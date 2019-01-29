@@ -23,10 +23,15 @@ public class AdventureGame : MonoBehaviour {
 	}
 
 	private void ManageState () {
+		var nextStates = currentState.GetNextStates ();
 		if (Input.GetKeyDown (KeyCode.Keypad1) || Input.GetKeyDown (KeyCode.Alpha1) || Input.GetKeyDown (KeyCode.DownArrow) || Input.GetKeyDown (KeyCode.LeftArrow)) {
-			currentState = currentState.GetNextStates () [0];
+			if (nextStates.Length >= 1) {
+				currentState = currentState.GetNextStates () [0];
+			}
 		} else if (Input.GetKeyDown (KeyCode.Keypad2) || Input.GetKeyDown (KeyCode.Alpha2) || Input.GetKeyDown (KeyCode.UpArrow) || Input.GetKeyDown (KeyCode.RightArrow)) {
-			currentState = currentState.GetNextStates () [1];
+			if (nextStates.Length >= 2) {
+				currentState = currentState.GetNextStates () [1];
+			}
 		}
 	}
 }
